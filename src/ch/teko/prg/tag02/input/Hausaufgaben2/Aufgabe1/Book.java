@@ -1,3 +1,5 @@
+package ch.teko.prg.tag02.input.Hausaufgaben2.Aufgabe1;
+
 public class Book {
 
     static void print(String text) { System.out.println(text); }
