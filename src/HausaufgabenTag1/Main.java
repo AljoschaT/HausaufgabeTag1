@@ -3,7 +3,7 @@ package HausaufgabenTag1;
 import HausaufgabenTag1.PKW;
 
 public class Main {
-    // Variable setzung der Printline Funktion
+    // Variable-Setzung der Printline Funktion
     static void print(String text) { System.out.println(text); }
 
     public static void main(String[] args) {
@@ -15,12 +15,12 @@ public class Main {
         String oPS = " | PS: ";
 
 
-        // Attribute vergabe
+        // Attribute-Vergabe
         PKW pkw1 = new PKW( "Wartburg","353", 50);
         PKW pkw2 = new PKW("VW", "Lupo", 50);
         PKW pkw3 = new PKW("Chevrolet", "Bel Air", 250);
 
-        // String Vereinfachung
+        // String-Vereinfachung
 
         String printpkw1 =  (oMarke + pkw1.getMarke() + oModell + pkw1.getModell() + oPS + pkw1.getPs());
         String printpkw2 =  (oMarke + pkw2.getMarke() + oModell + pkw2.getModell() + oPS + pkw2.getPs());
